@@ -1,10 +1,13 @@
 import React from 'react';
 
-const Item = () => {
+const Item = (props) => {
+
+    const dragStartHandler = () => {
+        props.startDrag(props.id)
+    }
+
     return (
-        <div>
-            
-        </div>
+        <div draggable style={props.style} onDragStart={dragStartHandler}></div>
     );
 };
 
