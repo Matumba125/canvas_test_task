@@ -4,11 +4,12 @@ import style from './Canvas.module.css'
 const Canvas = () => {
 
     return (
-        <>
-            <canvas className={style.canvas}>
+        <div className={style.canvasWrapper}>
+            <h2 className={style.header}>Canvas</h2>
+            <canvas  className={style.canvas}>
             </canvas>
 
-        </>
+        </div>
     );
 }
 

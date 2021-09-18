@@ -1,21 +1,17 @@
-.canvasWrapper{
-    border: 1px solid;
-    width: 800px;
+.itemColumn{
     height: 800px;
+    width: 200px;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
+
 .header{
-    width: 800px;
+    width: 200px;
     border: 1px solid;
     height: 50px;
     margin: 0;
     text-align: center;
-}
-
-.canvas{
-    width: 800px;
-    height: 750px;
 }
