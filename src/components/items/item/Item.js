@@ -7,7 +7,7 @@ const Item = (props) => {
     }
 
     return (
-        <div draggable style={props.style} onDragStart={dragStartHandler}></div>
+        <div draggable style={props.style} onDragStart={dragStartHandler}/>
     );
 };
 
